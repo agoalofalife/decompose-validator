@@ -1,0 +1,35 @@
+{
+  "name": "agoalofalife/decompose-validator",
+  "keywords": ["laravel", "validation", "decompose"],
+  "description": "Extra package for organization and decompose request validation in Laravel",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "agoalofalife",
+      "email": "agoalofalife@gmail.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "php": ">=7.3.0"
+  },
+  "require-dev": {
+    "../../../vendor/fzaninotto/faker": "^1.4",
+    "../../../vendor/mockery/mockery": "^1.0",
+    "../../../vendor/phpunit/phpunit": "^8.5"
+  },
+  "autoload": {
+    "psr-4": {
+      "agoalofalife\\DecomposeValidator\\":"src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "agoalofalife\\Tests\\": "tests/"
+    }
+  },
+  "scripts": {
+    "test": "vendor/bin/phpunit --stop-on-failure --no-coverage"
+  }
+}
