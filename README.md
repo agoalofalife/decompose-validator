@@ -6,6 +6,7 @@ Package helps you decompose validation in you project Laravel
 - [Create Validator Value](#create)
 - [How Do I can use in Form Request](#useInFormRequest)
 - [How Do I use in simple way validation](#useJustWay)
+- [Article](#article)
 
 <a name="installation"></a>
 ## Installation
@@ -125,3 +126,8 @@ public function store(Request $request)
    //...
 }
 ```
+
+
+<a name="article"></a>
+## Article
+Also I wrote the aritcle in (medium)[]. 
