@@ -2,9 +2,8 @@
 
 declare(strict_types=1);
 
-namespace App\Http\Requests;
+namespace agoalofalife\DecomposeValidator;
 
-use App\Contracts\ValidatorValue;
 use Illuminate\Container\Container;
 use Illuminate\Contracts\Container\BindingResolutionException;
 use Illuminate\Contracts\Validation\Factory as ValidationFactory;
@@ -14,12 +13,12 @@ use Illuminate\Http\Request;
 use Illuminate\Routing\Redirector;
 use Illuminate\Validation\ValidationException;
 
-/*
- * Этот класс похож на Form Request
- * Его задачи обрабатывать
- * rules and messages для ValidatorValue
+/**
+ * Looks like a usually FormRequest from Laravel, but has extra logic for
+ * handle rules
+ * Class FormRequestDecompose
+ * @package agoalofalife\DecomposeValidator
  */
-
 abstract class FormRequestDecompose extends Request implements ValidatesWhenResolved
 {
     /**
