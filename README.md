@@ -130,4 +130,4 @@ public function store(Request $request)
 
 <a name="article"></a>
 ## Article
-Also I wrote the aritcle in (medium)[]. 
+Also I wrote the aritcle in [medium](https://agoalofalife.medium.com/decompose-form-request-in-laravel-5997997f1f1) 
