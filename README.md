@@ -1,12 +1,18 @@
 # Decompose laravel validation
 Package helps you decompose validation in you project Laravel
 
-
+- [What is it?](#what)
 - [Installation](#installation)
 - [Create Validator Value](#create)
 - [How Do I can use in Form Request](#useInFormRequest)
 - [How Do I use in simple way validation](#useJustWay)
 - [Article](#article)
+
+<a name="what"></a>
+## What is it?
+Package give you a chance split validation fields. Each filed and dataset rules is  independent  class.
+It gives freedom in action and centralization validation in one place.
+For more understanding reading my article in [medium](https://agoalofalife.medium.com/decompose-form-request-in-laravel-5997997f1f1) .
 
 <a name="installation"></a>
 ## Installation
